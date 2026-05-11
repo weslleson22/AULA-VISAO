@@ -1,0 +1,30 @@
+# Requirements para o projeto de Segmentação de Imagens e Detecção de Objetos
+# Instale com: pip install -r requirements.txt
+
+# Bibliotecas essenciais para processamento de imagens
+opencv-python>=4.8.0
+numpy>=1.24.0
+
+# Bibliotecas para deep learning e modelos pré-treinados
+tensorflow>=2.13.0
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Biblioteca YOLO para detecção e segmentação
+ultralytics>=8.0.0
+
+# Biblioteca para manipulação de imagens (compatibilidade com modelos)
+Pillow>=10.0.0
+
+# Biblioteca para visualização (opcional, mas recomendado)
+matplotlib>=3.7.0
+
+# Bibliotecas adicionais para processamento
+scikit-image>=0.21.0
+scipy>=1.11.0
+
+# Biblioteca para downloads de modelos (se necessário)
+requests>=2.31.0
+
+# Biblioteca para progress bars (opcional)
+tqdm>=4.65.0
